@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;  
+        }      
+        div.main-div{
+            /*background-image: url(content_img.jpg.png);*/
+            background-color: cyan;
+            margin-left: 30%;
+            margin-right: 30%;
+            margin-top: 10px;
+            border: 1px solid black;
+            border-radius: 3px;
+            padding-left:5px ;
+            padding-top: 5px;
+            padding-bottom:5px ;
+        }
+        .btn-class{
+            margin: 10px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form action="css1.html" target="framel" method="get">
+        <div class="main-div">
+            <label for="txtfname">first name</label><br>
+            <input type="text" id="txtfname"><br>
+            <label for="txtlastname">last name</label><br>
+            <input type="text" id="txtlastname"><br>
+            <input type="submit" value="SUBMIT" class="btn-class"><br>
+
+
+            <label>Gender</label>
+            <label for="rbtnMale">MaLe</label>
+            <input type="radio" value="Male" id="rbtnMale" name="Gender">
+            <label>Gender</label>
+            <label for="rbtnFemale">Female</label>
+            <input type="radio" value="Female" id="rbtnFemale">
+            <label>Gender</label>
+            <label for="rbtnothers">others</label>
+            <input type="radio" value="others" id="rbtnothers">
+            <label for="items">Select items</label>
+            <input type="checkbox" id="item1" value="item1">
+            <label for="item1">Item1</label>
+            <input type="checkbox" id="item1" value="item1">
+            <label for="item2">Item2</label>
+            <input type="checkbox" id="item1" value="item1">
+            <label for="item3">Item3</label>
+            <input type="checkbox" id="item1" value="item1">
+            <label for="item4">Item4</label>
+            
+            <input type="submit" value="SUBMIT" id="btn-class">
+            <input type="reset" value="RESET" id="btn btn-class">
+        </div>
+
+    </form>
+</body>
+</html>
